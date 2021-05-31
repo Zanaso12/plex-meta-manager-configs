@@ -38,7 +38,7 @@ collections:
     summary: Animated film is a collection of illustrations that are photographed frame-by-frame and then played in a quick succession. Since its inception, animation has had a creative and imaginative tendency. Being able to bring animals and objects to life, this genre has catered towards fairy tales and children’s stories. However, animation has long been a genre enjoyed by all ages. As of recent, there has even been an influx of animation geared towards adults. Animation is commonly thought of as a technique, thus it’s ability to span over many different genres.
   Anime:
     template: {name: Genre, genre: Anime, poster: https://theposterdb.com/api/assets/126743}
-    summary: A collection of Anime movies
+    summary: A collection of Japanese Animation
   Biography:
     template: {name: Genre, genre: Biography, poster: https://theposterdb.com/api/assets/60369}
     summary: A collection of Biography movies
@@ -51,6 +51,9 @@ collections:
   Documentary:
     template: {name: Genre, genre: Documentary, poster: https://theposterdb.com/api/assets/51430}
     summary: Documentary film is a non-fiction genre intended to document reality primarily for the purposes of instruction, education, or maintaining a historical record.
+  Donghua:
+    template: {name: Genre, genre: Anime, poster: https://theposterdb.com/api/assets/126743}
+    summary: A collection of Chinese Animation, most of which are still banned in China...
   Drama:
     template: {name: Genre, genre: Drama, poster: https://theposterdb.com/api/assets/52016}
     summary: Drama film is a genre that relies on the emotional and relational development of realistic characters. While Drama film relies heavily on this kind of development, dramatic themes play a large role in the plot as well. Often, these dramatic themes are taken from intense, real life issues. Whether heroes or heroines are facing a conflict from the outside or a conflict within themselves, Drama film aims to tell an honest story of human struggles.
