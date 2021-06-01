@@ -16,7 +16,6 @@ templates:
     url_poster: <<poster>>
     sort_title: +2_<<collection_name>>
     url_poster: <<poster>>
-    collection_order: alpha
     sync_mode: sync
 
 collections:
@@ -27,14 +26,14 @@ collections:
     template: {name: Genres, poster: https://theposterdb.com/api/assets/126754}
     summary: marketed towards young teen males between the ages of 12 and 18.
   Isekai:
-    template: {name: Genres, poster: https://theposterdb.com/api/assets/126754}
+    template: {name: Genres, poster: https://image.tmdb.org/t/p/original//clts5tTaabf4KebibgFQwcyLSkx.jpg}
     summary: Japanese genre of light novels, manga, anime and video games that revolve around a person who is transported to and has to survive in another world, such as a fantasy world, virtual world or parallel universe.
   Mecha:
-    template: {name: Genres, poster: https://theposterdb.com/api/assets/126754}
+    template: {name: Genres, poster: https://image.tmdb.org/t/p/original//sF9MTqs1uYJ1Cvg32YJTVc1rXRr.jpg}
     summary: The term mecha may refer to both scientific ideas and science fiction genres that center on giant robots or machines controlled by people. Mechas are typically depicted as humanoid mobile robots.
   Slice of Life:
-    template: {name: Genres, poster: https://theposterdb.com/api/assets/126754}
+    template: {name: Genres, poster: https://image.tmdb.org/t/p/original//FkgA8CcmiLJGVCRYRQ2g2UfVtF.jpg}
     summary: Slice of life describes the depiction of mundane experiences in art and entertainment.
   Boys' Love:
-    template: {name: Yaoi, poster: https://theposterdb.com/api/assets/126754}
+    template: {name: Yaoi, poster: https://image.tmdb.org/t/p/original//cqkTthn03IlbeEnDaclZ0CPdiSC.jpg}
     summary: Yaoi, also known as BL, is a genre of fictional media originating in Japan that features homoerotic relationships between male characters. These typically have a very limited to completely nonexistant female cast.
