@@ -1,44 +1,35 @@
-# used with https://github.com/meisnate12/Plex-Meta-Manager
+# https://github.com/meisnate12/Plex-Meta-Manager
 ######################################################
-#                Genres Collections                  #
+#                Movie Collections                   #
 ######################################################
 ###########################
 #        Templates        #
 ###########################
 templates:
   Genre:
-    optional:
-      - second_genre
     plex_all: true
     filters:
       genre: <<genre>>
-      genre: <<second_genre>>
     url_poster: <<poster>>
     sort_title: +++++++_<<collection_name>>
     collection_order: alpha
-    smart_label: random
-  Holiday:
-    url_poster: <<poster>>
-    sort_title: +++++++_<<collection_name>>
-    collection_order: release
-    smart_label: random
 
 collections:
 ###########################
 #    Genre Collections    #
 ###########################
   Action:
-    template: {name: Genre, genre: Action, second_genre: Action/Adventure, poster: https://theposterdb.com/api/assets/52018}
+    template: {name: Genre, genre: "Action,Action/Adventure", poster: https://theposterdb.com/api/assets/52018}
     summary: Action film is a genre wherein physical action takes precedence in the storytelling. The film will often have continuous motion and action including physical stunts, chases, fights, battles, and races. The story usually revolves around a hero that has a goal, but is facing incredible odds to obtain it.
   Adventure:
-    template: {name: Genre, genre: Adventure, second_genre: Action/Adventure, poster: https://theposterdb.com/api/assets/52218}
+    template: {name: Genre, genre: "Adventure,Action/Adventure", poster: https://theposterdb.com/api/assets/52218}
     summary: Adventure film is a genre that revolves around the conquests and explorations of a protagonist. The purpose of the conquest can be to retrieve a person or treasure, but often the main focus is simply the pursuit of the unknown. These films generally take place in exotic locations and play on historical myths. Adventure films incorporate suspenseful puzzles and intricate obstacles that the protagonist must overcome in order to achieve the end goal.  
   Animation:
     template: {name: Genre, genre: Animation, poster: https://theposterdb.com/api/assets/120090}
     summary: Animated film is a collection of illustrations that are photographed frame-by-frame and then played in a quick succession. Since its inception, animation has had a creative and imaginative tendency. Being able to bring animals and objects to life, this genre has catered towards fairy tales and children’s stories. However, animation has long been a genre enjoyed by all ages. As of recent, there has even been an influx of animation geared towards adults. Animation is commonly thought of as a technique, thus it’s ability to span over many different genres.
   Anime:
     template: {name: Genre, genre: Anime, poster: https://theposterdb.com/api/assets/117292}
-    summary: A collection of Japanese Animation
+    summary: A collection of Anime movies
   Biography:
     template: {name: Genre, genre: Biography, poster: https://theposterdb.com/api/assets/60369}
     summary: A collection of Biography movies
@@ -51,9 +42,6 @@ collections:
   Documentary:
     template: {name: Genre, genre: Documentary, poster: https://theposterdb.com/api/assets/51430}
     summary: Documentary film is a non-fiction genre intended to document reality primarily for the purposes of instruction, education, or maintaining a historical record.
-  Donghua:
-    template: {name: Genre, genre: Donghua, poster: https://theposterdb.com/api/assets/126743}
-    summary: A collection of Chinese Animation, most of which are still banned in China...
   Drama:
     template: {name: Genre, genre: Drama, poster: https://theposterdb.com/api/assets/52016}
     summary: Drama film is a genre that relies on the emotional and relational development of realistic characters. While Drama film relies heavily on this kind of development, dramatic themes play a large role in the plot as well. Often, these dramatic themes are taken from intense, real life issues. Whether heroes or heroines are facing a conflict from the outside or a conflict within themselves, Drama film aims to tell an honest story of human struggles.
@@ -115,8 +103,8 @@ collections:
   Short:
     template: {name: Genre, genre: Short, poster: https://theposterdb.com/api/assets/53063}
     summary: A collection of Short movies
-  Sports:
-    template: {name: Genre, poster: https://theposterdb.com/api/assets/60371}
+  Sportsball:
+    template: {name: Genre, genre: Sport, poster: https://theposterdb.com/api/assets/60371}
     imdb_list:
     - url: https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=sport
       limit: 200
@@ -135,9 +123,6 @@ collections:
     template: {name: Genre, poster: https://theposterdb.com/api/assets/74604}
     imdb_list: https://www.imdb.com/list/ls022909805
     summary: Sword and Sorcery film is a sub-genre of Fantasy that tend to be more plot-driven. These films rely on heavy action and battle scenes. Common themes in Sword and Sorcery films include a rescue mission, saving a princess, and battling a fantastical monster. The worlds and characters in these films are often much less developed than in other fantasy sub-genres. Of all the Fantasy sub-genres, Sword and Sorcery is most likely to be geared towards a younger audience, as many of these films are animated.
-  Sportsball:
-    template: {name: Genre, genre: Sport, poster: https://theposterdb.com/api/assets/60371}
-    summary: Dodge, duck, dip, dive, and dodge.
   Thriller:
     template: {name: Genre, genre: Thriller, poster: https://theposterdb.com/api/assets/52019}
     summary: Thriller Film is a genre that revolves around anticipation and suspense. The aim for Thrillers is to keep the audience alert and on the edge of their seats. The protagonist in these films is set against a problem – an escape, a mission, or a mystery. No matter what sub-genre a Thriller film falls into, it will emphasize the danger that the protagonist faces. The tension with the main problem is built on throughout the film and leads to a highly stressful climax.
