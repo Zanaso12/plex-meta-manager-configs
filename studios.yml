@@ -1,7 +1,5 @@
 ###########################################################
 #                Studio Collections                       #
-#     A rather in depth list of studios and collections   #
-#                   By: twhiting9275                      #
 ###########################################################
 templates:
   Studio:
@@ -12,8 +10,14 @@ templates:
     sync_mode: sync
     smart_label: originally_available.desc
 collections:
+  G.CMay Animation & Film:
+    template: { name: Studio, company: 88725 }
+  Tencent Video:
+    template: { name: Studio, company: 74457 }
+  BiliBili:
+    template: { name: Studio, company: 123270 }
   Marvel Studios:
-    template: { name: Studio, company: }
+    template: { name: Studio, company: 420 }
     summary: Metro-Goldwyn-Mayer Studios Inc.  is an American media company, involved primarily in the production and distribution of feature films and television programs. One of the world's oldest film studios, MGM's corporate headquarters are located in Beverly Hills, California.
   Lionsgate:
     template: { name: Studio, company: 1632 }
