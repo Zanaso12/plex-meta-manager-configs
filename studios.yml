@@ -16,6 +16,7 @@ collections:
     template: { name: Studio, company: 74457 }
   BiliBili:
     template: { name: Studio, company: 123270 }
+    summary: Basically Funimation, but China.
   Marvel Studios:
     template: { name: Studio, company: 420 }
     summary: Metro-Goldwyn-Mayer Studios Inc.  is an American media company, involved primarily in the production and distribution of feature films and television programs. One of the world's oldest film studios, MGM's corporate headquarters are located in Beverly Hills, California.
