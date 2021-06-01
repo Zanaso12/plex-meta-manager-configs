@@ -12,7 +12,6 @@ templates:
       genre: <<genre>>
     url_poster: <<poster>>
     sort_title: +++++++_<<collection_name>>
-    collection_order: alpha
 
 collections:
 ###########################
